@@ -7,7 +7,6 @@
 
 # Saves and persistent data
 *.save
-saves/
 persistent
 
 # Generated cache files
@@ -34,10 +33,3 @@ desktop.ini
 __pycache__/
 *.pyc
 *.pyo
-
-# IDE / Editor settings
-.vscode/
-.idea/
-*.iml
-*.sublime-project
-*.sublime-workspace
