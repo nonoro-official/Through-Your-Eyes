@@ -1,0 +1,43 @@
+# Ren'Py compiled files
+*.rpyc
+*.rpymc
+
+# Ren'Py archives
+*.rpa
+
+# Saves and persistent data
+*.save
+saves/
+persistent
+
+# Generated cache files
+cache/
+log.txt
+errors.txt
+traceback.txt
+text_input.txt
+debug.txt
+tmp/
+
+# Thumbnails & screenshots
+*.bak
+*.thumb
+*.jpg.save
+*.png.save
+
+# OS junk files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
