@@ -1,0 +1,40 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 5, in script call
+    call intro_start from intro
+  File "game/game_screens.rpy", line 28, in script call
+    call jb_start from judi_backstory
+  File "game/judi_backstory.rpy", line 229, in script call
+    call judieyes1
+  File "game/game_screens.rpy", line 129, in script
+    menu:
+ScriptError: could not find label 'menu1_slow'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "D:\RenPy\renpy-8.0.3-sdk\renpy\bootstrap.py", line 277, in bootstrap
+    renpy.main.main()
+  File "D:\RenPy\renpy-8.0.3-sdk\renpy\main.py", line 660, in main
+    run(restart)
+  File "D:\RenPy\renpy-8.0.3-sdk\renpy\main.py", line 146, in run
+    renpy.execution.run_context(True)
+  File "D:\RenPy\renpy-8.0.3-sdk\renpy\execution.py", line 938, in run_context
+    context.run()
+  File "game/script.rpy", line 5, in script call
+    call intro_start from intro
+  File "game/game_screens.rpy", line 28, in script call
+    call jb_start from judi_backstory
+  File "game/judi_backstory.rpy", line 229, in script call
+    call judieyes1
+  File "game/game_screens.rpy", line 129, in script
+    menu:
+  File "D:\RenPy\renpy-8.0.3-sdk\renpy\script.py", line 927, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'menu1_slow'.
+
+Windows-10-10.0.19045 AMD64
+Ren'Py 8.0.3.22090809
+Through Your Eyes 1.0
+Sun Dec 15 16:41:00 2024
