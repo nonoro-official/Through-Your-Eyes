@@ -6,6 +6,7 @@
 *.rpa
 
 # Saves and persistent data
+/saves
 *.save
 persistent
 
