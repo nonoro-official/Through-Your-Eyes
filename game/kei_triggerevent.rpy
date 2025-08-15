@@ -73,8 +73,7 @@ label kt_start:
 
     scene bg schoolhallway with fade
 
-    # play sound "kitchen / clanging sounds sfx"
-    # play sound "kids laughter sfx"
+    # play sound "school corridor - after school hours sfx"
 
     "It’s been 2 weeks since the principal explained the school exhibition. The whole school still buzzes with excitement, preparing for the upcoming event."
 
@@ -150,8 +149,7 @@ label kt_start:
 
     yk "I'm home!"
 
-    "Kei just arrived home from school, feeling so exhausted. Greeting no one, he proceeded into the living room to leave his things and get ready to prepare dinner.
-"
+    "Kei just arrived home from school, feeling so exhausted. Greeting no one, he proceeded into the living room to leave his things and get ready to prepare dinner."
 
     scene bg khome_livingroom with fade
 
@@ -211,7 +209,7 @@ label kt_start:
 
     # sfx throb ? 
 
-    "Noise starts to flood the classroom as Kei’s classmates enter the class one by one."
+    "The throb in his head mimicked each sound he heard, coming into him like unrelenting waves."
 
     yk "Ugh..."
 
@@ -270,6 +268,8 @@ label kt_start:
     "Unbeknownst to Kei, his classmate approached him for a favor, placing their hand on his shoulder."
 
     cm1 "Hey, Kei, can I ask for a small favor—"
+
+    # outburst sfx
 
     show k upset with dissolve
 

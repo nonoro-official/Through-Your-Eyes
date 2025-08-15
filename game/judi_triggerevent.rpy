@@ -1,5 +1,5 @@
 # main 
-define j = Character(_("Judi"), color="#F1DD5F")
+define yj = Character(_("Judi"), color="#F1DD5F")
 
 # side 
 define jm = Character(_("Judi's Mother"), color="#f77e33")
@@ -17,176 +17,197 @@ label jt_start:
     scene blackscreen 
     pause 1.0
 
-    scene bg guidanceoffice with fade
+    scene bg sidewalk with fade
+
+    # play sound "humming girl with crinkling plastic sfx"
 
     show j happy with dissolve
 
-    "Alone in the guidance office, Judi sits alone in front of the Guidance Officer, a warm, yet concerned expression on their face."
+    yj "Hehe. I bet they’re gonna be so excited. Ah~ I better run home—"
 
-    go "Judi, we’ve noticed your bandages… They never seem to go away."
+    # with (shaking effect)
 
-    "They look intently at Judi, who quickly flashes them a smile."
+    "Judi stumbles back when she feels a body slamming into her in full force. She sees the person fall onto the ground, their things scattered around them."
 
-    j "Hehe, that’s just me. I’m a bit clumsy, always tripping over something."
+    yj "Oh no! I’m so, so sorry. Are you okay? Can you stand?"
 
-    "The guidance officer gives her a gentle, worried look. Judi holds her smile, unflinching."
+    "Judi crouches down to gather their stuff when she notices scribbles on their notebook. She looked at it for a minute when the person suddenly snatched it away."
 
-    go "…Alright, but remember, I’m here if you ever need anything."
+    "They tried to run away, tripping on their feet and falling again. Judi stood stunned at the string of misfortunate events."
 
-    "Judi thanked the officer, still keeping that smile on her face."
+    "Judi noticed their clothes all wet and covered with dirt and soot. Inhaling deeply, she reached out her hand with a warm, worried smile on her face."
 
-    show bg schoolgate with fade
+    yj "That was quite the fall. Here, lemme help you up."
 
-    # play sound "school bell sfx"
+    "Clenching their fists, the person kept their head down as Judi gathered their scattered stuff again."
 
-    "The bell rings, signaling the end of classes for the day. Students can be heard walking about, saying their goodbyes to one another."
+    "They flinched when Judi stretched out her hand, bag of snacks dangling."
 
-    cm "Bye, Judi! See you tomorrow!"
+    yj "I was going to give these to my siblings, but you can have them. Feel free to throw them away if you don't like them…"
 
-    j "See you!"
+    yj "But I was hoping it'd put a smile on your face like it does on my siblings."
 
-    "Once she was out of sight, the smile Judi had been wearing had disappeared."
+    "Looking in the bag, the person notices a familiar snack and scoffs."
 
-    j "*sigh*"
+    s "…popping candy? How is this stupid snack gonna make me happy…"
 
-    j "I don’t wanna go home yet… I wish the day lasted a little longer…"
+    yj "‘Cuz it's magic! Doesn’t it feel like fireworks exploding in your mouth? And the way the popping tickles your brain all the way to the tips of your fingers—"
 
-    scene bg jhome_hallway with fade
+    "Judi stops her chattering as she catches the person weirdly staring at her."
 
-    show j happy with dissolve
+    yj "At least… that’s what it feels like for me… hehe."
 
-    "Judi arrives home and quietly enters inside, hoping not to be found by her parents."
+    "Silence fills the air as Judi fiddles her fingers in an awkward attempt to distract herself from her embarrassment. Having enough of the awkward silence, she excuses herself out."
 
-    # play sound "bottle shatterring sfx"
+    yj "Anyways! I gotta go. It’s getting late and my siblings might worry. Be careful on your way home!"
 
-    "However, luck isn’t on her side."
+    "The person watches as Judi’s silhouette slowly disappears with the sunlight. Once out of sight, they reach out for a pack of popping candy and eat it."
 
-    with hpunch
-    pause 0.5
+    # play sound "popping candy sfx"
+
+    "They close their eyes as they hear and feel the little bursts of explosion, a small yet noticeable smile lifting on their face."
+
+    s "… it does feel like magic."
+
+    show blackscreen with fade
+
+    "Days later..."
+
+    hide blackscreen 
+
+    show bg schoolbackyard with fade
+
+    "Judi strolls around the school backyard, hoping to find a comfy and quiet spot to eat."
+
+    yj "Hmm, I wonder if there’s a good spot near the storage room~"
+
+    "Rounding the corner, Judi sees the person she bumped into days earlier surrounded by a bunch of students."
+
+    b1 "Hey, we asked you a favor, didn’t I? So, where is it? Don’t tell me you forgot."
+
+    s "S-sorry… things suddenly became hectic a-and I wasn’t able to finish yours in time—"
+
+    "One bully pushed the person to the wall hard enough to cause bruises. Judi cringed as she heard the bullies raise their tone."
+
+    b2 "Then you should’ve done ours first! Tsk, we’re gonna be enrolled in supplementary classes because of you."
+
+    "Another poked at their head and shoulders, pushing them more against the wall."
+
+    b3 "What are you going to do about it now, huh? How are you going to fix this?!"
+
+    s "I’m really s-sorry—"
+
+    "The first bully scoffed, irritated by their victim’s apologies. They raised their hand, attempting to hurt their victim."
+
+    b1 "Sorry? Sorry?! You think that’s enough to sort this out? Ha! You must be crazy—"
+
+    yj "Hey!"
+
+    "Judi interrupted before the person got more hurt. Fuming in anger, she rushed to protect the victim from their bullies and covered them in her small stature. The bullies stared at her in amusement."
+
+    yj "What do you think you’re doing? Just cause they didn’t finish “your” homework, you get to the right to raise your hand against them?"
+
+    yj "If you guys are so adamant about passing, you should’ve done them by yourselves in the first place!"
+
+    "Erupting in laughter, the bullies shifted their attention to Judi instead."
+
+    b3 "Well, well, well… look at what we’ve got here. You’ve got some guts, don’t you?"
+
+    b2 "Who are you to butt in? Their friend?"
+
+    yj "What if I am?"
+
+    b1 "Awww, what a sweet friendship you’ve got~ Too bad…"
+
+    b1 "You should’ve just stayed out of this and enjoyed the show."
+
+    # transition shaking effect
+
+    "The bullies restrained Judi while she flailed around to escape their clutches. The victim saw this opportunity and ran away as fast as they could."
+
+    yj "Let me go! Ugh! Where are you taking me?!"
+
+    "The bullies kept their firm grip, dragging her along. Then, they throw Judi inside the dark, dirty storage room."
+
+    yj "Oof! Hey, wait—"
+
+    # play sound lock clicking in
+
+    "Seeing her world suddenly darken and the sound of locks clicking, she heard the grating cackles of the bullies just outside the door."
+
+    b1 "And stay there. That ought to teach you a lesson to mind your own business."
+
+    scene bg dark storageroom with fade
+
+    # transition shaking
+    # door banging sfx
+
+    show j shocked with dissolve
+
+    "Hello!? Is anybody there!? Help me, please, I’m trapped in here!"
+
+    "For what seemed like hours, Judi kept screaming for help and banging the door non-stop."
+
+    yj "Can’t anyone hear me!? Please…"
+
+    "Tears start to form, her cries turning into desperate sobs."
+
+    # dimming of screen effect
+    # little girl crying and door banging sfx
+
+    # flashback
     
-    "As she crosses the hallway, a beer bottle flies past her and shatters, a shard grazing her arm. Her younger siblings cry at the noise."
+    yj "Mom, please, it hurts! I’m sorry! I won’t do it ever again, so please—"
 
-    jm "JUDI! WHERE HAVE YOU BEEN!?"
+    "Judi’s mother has her hands in a painful grip on her daughter's arm, dragging her into a dark room."
 
-    "Judi puts a hand on her grazed arm, legs trembling as she answers her mother’s question."
+    "Judi sobs as she tries to pry off her mother’s hand in an attempt to cease the pain and escape from the pitch-black unknown."
 
-    j "I-I was at school."
+    jm "No! I’m putting you in time-out. You’ve been a bad girl, so you stay here!"
 
-    jm "How DARE you leave me alone to take care of them! You’re the oldest child! That is YOUR responsibility!"
+    "She tosses Judi inside the room and glares at her, irritation evident in her features."
 
-    j "I’m sorry, Mom."
+    jm "And cease your useless crying! It’s getting on my nerves. Unless you want more time-out, you better keep your mouth shut."
 
-    jm "You know I love you, right? You know how much effort I put into raising you and giving birth to your siblings."
+    "She closes the door shut, locking little Judi in."
 
-    j "Yes, Mom."
+    # flashback end
 
-    jm "You can't leave me alone with them, Judi. Your father doesn't give us enough attention already, and you know how hard I have to work to make up for that too, right?"
+    "She bangs on the door harder than before as she hears their laughter slowly fading out. Her screams for help got louder, lips trembling and breathing heavily. "
 
-    j "Yes, Mom."
+    yj "Please… I’m sorry! I won’t bother you again so please just let me out…"
 
-    jm "You little brat. Do you even understand what I’m saying? Are you even listening or do I have to knock some sense into you again?"
+    # pounding on door sfx with slow fade
 
-    "Before her mother does something else, Judi rushes to grab her siblings, bringing them into her room."
+    "Her cries slowly quieted down, her pounding became slower and weaker. Her heavy breathing became shallow as a tear flowed down one cheek, her expression turning blank."
 
-    show bg judiroom with fade
+    "Eyes downcast, she slowly retreats from the door and walks to a corner. She huddles in her tiny, trembling form, holding back her whimpers."
 
-    "Judi closes the door quickly as they enter, but her siblings are still crying."
+    # play sound pounding heart sfx
 
-    j "Can you two STOP CRYING?!"
+    "She clutches her head, covering her ears and shutting her eyes tight."
 
-    "Her siblings look at her, startled, on the verge of sobbing even louder. Panicking, Judi grips them tightly, trying to silence their cries."
+    # flashback
 
-    "Once they quiet down, they huddle together in a corner, tears still streaming down their faces."
+    # play sound glass shattering 
 
-    jm "JUDI! DO YOUR CHORES NOW!"
+    jm "Agh! You little brat! I know you’re hiding. Get back here!"
 
-    scene blackscreen with fade
+    "In a closet, sniffles and hiccups can be heard. Underneath a big pile of clothes, little Judi tries to hide away from her enraged, drunk mother."
 
-    "Years later..."
+    "She flinched again when another shatter shook the house. Heavy footsteps echoed around, sometimes getting louder and closer then going away."
 
-    scene bg jhome_diningtable with fade
+    yj "Mom… please, stop…"
 
-    show j happy with dissolve
+    "Her cries muffled underneath the clothes. Dried tear stains on her cheeks, exhaustion and sadness evident through her face. Sleep slowly consumed her, adrenaline whisking away."
 
-    "Everyone sits around the dining table, eating in silence. Tension’s in the air as Judi’s father, irritated and barely looking at her, breaks that silence in a cold tone."
+    # flashback end
 
-    jf "So, got a call from the school today. Mind explaining why you’re slacking off?"
+    "Her hope slowly disappeared. As one last cry, she let out a small whisper."
 
-    "Judi stares down at her plate, tensing up. Her mother shifts nervously and shoots her a glance."
+    yj "… I’m scared… Please…"
 
-    j "Um..."
-
-    jf "Absences, failing grades… Judi, do you not care about us at all? I’ve been working myself to the bone here and this is what you give me?"
-
-    j "B-but—"
-
-    "Her mother cuts her off, shifting her husband’s attention to her."
-
-    jm "Oh, honey, I’m sorry. It’s all my fault. I promise I’ll do better—"
-
-    with vpunch 
-    pause 0.1
-
-    "Judi’s father slams the table, cutting her off and startling everyone."
-
-    jf "SHUT UP! All you’ve done is make excuses. Look at your daughter! She’s a reflection of yourself, a disappointment. You never do anything right!"
-
-    "Judi hunched over in her seat, slamming her eyes shut. In a desperate attempt to silence their shouts, she covered her ears with her shaking hands, heart pounding and breathing heavily."
-
-    jf "You’ll do better? The only thing you’ve ever been good at is screwing things up. Like mother, like daughter. You’re both failures!"
-
-    "Feeling tears were about to form, Judi gets up and storms out of the house."
-
-    # play sound "door slam sfx"
-
-    scene bg park with fade
-
-    show j happy with dissolve
-
-    "Judi wanders around aimlessly to escape the situation and sees children having fun playing with their parents in a nearby park. She scoffs at her situation."
-
-    j "I don’t know how much longer l can take this."
-
-    "She looks up at the sky and feels tears freely flowing down her cheeks, eyes blank and expressionless."
-
-    window hide
-    show screen judi_parkhand with fade
-    pause
-
-    show screen judi_parkfull with dissolve
-    pause
-
-    j "I’m so tired. Why do I have to put up with this…"
-
-    hide screen judi_parkhand
-    hide screen judi_parkfull with fade
-
-    "Closing her eyes, she feels the gentle breeze flow on her face, cooling her tear-stricken face. An image pops in her mind as she softly hears a baby’s laughter."
-
-    # play sound baby laughter sfx
-
-    j "Ah."
-
-    "She runs back home and opens the door, hearing soft cries calling her name."
-
-    scene bg judiroom with fade #jsiblingspscene
-
-    "Though beaten, scratched, and bruised, faces stained with tears, Judi and her siblings huddle together in bed."
-
-    j "I’m sorry for leaving you two."
-
-    js "We’re the ones who should say sorry! We cried too much, which made both Mom and Dad angry. If we didn’t, maybe you wouldn’t have gotten hurt when you got back."
-
-    j "No, you shouldn’t apologize for that. Heh, Mom’ll still hit me anyway since I left the house. I’m sorry you two got caught up in that."
-
-    "Her siblings then cling to her, speaking softly."
-
-    js "We love you, no matter what."
-
-    "Feeling the tears well up again, Judi pulls them closer and hugs them."
-
-    j "…I love you both. I won’t leave you two like that again, I promise. I’ll protect you."
-
-    "They stay huddled together like that, holding on until they eventually drift off to sleep."
+    call demoend 
+    with fade
 
     return
